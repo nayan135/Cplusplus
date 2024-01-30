@@ -17,6 +17,7 @@ class A{
     T=p+i;
     cout<<T<<endl;
 
+
    }
 };
 double A::r=1.3;
