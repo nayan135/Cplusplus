@@ -1,8 +1,8 @@
-#include<iostream.h>
+#include<iostream>
 using namespace std;
 class account {
 int balance, Accountno, Interest, Tbalance;
-double static rate;
+int static rate;
 public:
 void getdata(){
     cout<<"enter Account no.";
@@ -23,7 +23,7 @@ void display(){
         cout << "Total Balance: " << Tbalance << endl;
     }
 };
-double account::rate=1.25;
+int account::rate=1.25;
 int main(){
     account a1, a2;
     a1.getdata();
