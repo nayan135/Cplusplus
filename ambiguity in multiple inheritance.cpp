@@ -12,14 +12,14 @@ class base2{
         cout<<"base 2";
     }
 };
-class base3:public base1, public base2{
+class derived:public base1, public base2{
     public:
     void Ambiguity(){
         cout<<"base 3";
     }
 };
 int main(){
-    base3 obj;
+    derived obj;
    obj.base1::Ambiguity();
    obj.base2::Ambiguity();
     return 0;
