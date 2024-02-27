@@ -28,8 +28,7 @@ int main(){
     account a1, a2;
     a1.getdata();
     a1.display();
-     
-    a1.showdata();
+ a1.showdata();
    a2.getdata();
     a2.display();
     a2.showdata();
