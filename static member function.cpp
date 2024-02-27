@@ -1,10 +1,10 @@
-#include<iostram>
+#include<iostream>
 using namespace std;
 class A{
     int p,t,i;
     double static r;
     public:
-    void gerdata(){
+    void getdata(){
         cout<<"Enter Principle, time";
         cin>>p>>t;
  
@@ -12,9 +12,9 @@ class A{
    static void modify(double s){
     r= r+s;
    }
-   calc(){
+  void calc(){
     i=(p*t*r)/100;
-    T=p+i;
+  int T=p+i;
     cout<<T<<endl;
 
 
