@@ -2,7 +2,7 @@
 using namespace std;
 class base{
     public:
-  virtual  void data(){
+ void data(){
         cout<<"BASE CLASS KO FUNCTION";
     }
 };
