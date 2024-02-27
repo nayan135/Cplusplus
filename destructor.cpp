@@ -18,7 +18,5 @@ class Destructor{
 int main(){
     Destructor n;
     n.process();
-    Destructor c(n);
-    c.process();
     return 0;
 }
