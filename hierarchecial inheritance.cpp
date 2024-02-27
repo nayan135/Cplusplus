@@ -2,37 +2,27 @@
 using namespace std;
 class h{
     public:
-    int n;
+    int x,y;
     void data(){
-        cout<<"Enter a number";
-        cin>>n;
+        cout<<"Enter two number";
+        cin>>x>>y;
     }   
 };
-class fac: public h{
+class mul: public h{
        public:
-    int f=1,i;
-    void process(){
-    for(i=1;i<=n;i++){
-        f=f*i;
-    }
-    cout<<"The factorial is: "<<f;
-}
+   void process(){
+    cout<<x*y;
+   }
 };
-class factor: public h{
+class add: public h{
     public:
-    int i;
      void process(){
-        cout<<endl<<"The factor of given no is: ";
-    for(i=1;i<=n; i++){
-        if (n%i==0){
-            cout<<i<<"\t";
+      cout<<x+y;
     }
-}
-}
 };
 int main(){
-    fac obj;
-    factor obj2;
+    mul obj;
+    add obj2;
     obj.data();
     obj2.data();
     obj.process();
