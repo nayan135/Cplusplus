@@ -4,9 +4,7 @@ class fac{
     public:
     int n;
     void data(){
-
-    
-    cout<<"Enter a number";
+   cout<<"Enter a number";
     cin>>n;
 }
 };
