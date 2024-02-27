@@ -5,8 +5,7 @@ class Copy{
     int a,b;
     Copy(int x, int y){
         a=x;
-        b=y;
-        
+        b=y;  
     }
     void process(){
         cout<<a*b<<endl;
@@ -15,7 +14,6 @@ class Copy{
         a=z.a;
         b=z.b;
     }
-    
 };
 int main(){
     Copy n(10,3);
