@@ -1,0 +1,13 @@
+// EKXIN MA HAAIII 
+Implicit type Conversion
+Explicit type Conversion
+Friend Class 
+Friend Function
+Abstraction
+Encapsulation
+
+/// voli scl ma aaru le gareko vaye matrai garni matra baal dina pardena 
+No return type and no arguement
+no return type and argument 
+Return type and no argument 
+return type and arguement
