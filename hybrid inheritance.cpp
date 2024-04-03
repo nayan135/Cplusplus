@@ -26,9 +26,10 @@ void child2(){
 };
 int main(){
   child1 c;
+  Child c1;
   c.base();
   c.derived();
-  c.child();
+  c1.child();
   c.child2();
     return 0;
 }
