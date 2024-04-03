@@ -9,7 +9,7 @@ public:
 void loop(){
     int i;
     int f=1;
-    for(i=1;i<=10;i++){
+    for(i=1;i<=5;i++){
         f=f*i;
         cout<<f<<endl;
     }
@@ -25,7 +25,7 @@ void loop(){
             cout<<f<<endl;
             i++;
         }
-        while(i<=10);
+        while(i<=5);
     }
 */
 
@@ -33,7 +33,7 @@ void loop(){
     void loop(){
 int i=1;
     int f=1;
-    while(i<=10){
+    while(i<=5){
         f=f*i;
         cout<<f<<endl;
         i++;
