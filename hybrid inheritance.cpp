@@ -1,4 +1,4 @@
-// this is done using single inheritance and multiple inheritance
+// this is done using single inheritance and heirarchical inheritance
 #include<iostream>
 using namespace std;
 class hybrid{   // single 
@@ -13,13 +13,13 @@ void derive(){
     cout<<"derived class\n";
 }
 };
-class Child:public derived{  // multiple inheritance
+class Child:public derived{  // heirarchical inheritance
 public:
 void child(){
     cout<<"child class\n";
 }
 };
-class child1:public derived{  // multiple inheritance
+class child1:public derived{  // heirarchical inheritance
 public:
 void child2(){
     cout<<"child1 class\n";   
