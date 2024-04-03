@@ -7,7 +7,7 @@ class Car {
 public:
     void getDescription() {
         cout << "Enter car name: ";
-        getline(cin, name);
+        getline(cin, name);             
         cout << "Enter brand model: ";
        getline(cin, brandModel);
 
