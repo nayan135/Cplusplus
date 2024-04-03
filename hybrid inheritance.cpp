@@ -1,24 +1,25 @@
+// this is done using single inheritance and multiple inheritance
 #include<iostream>
 using namespace std;
-class hybrid{
+class hybrid{   // single 
 public:
 void base(){
     cout<<"base class\n";
 }
 };
-class derived:public hybrid{
+class derived:public hybrid{ //single inheritance
 public:
 void derive(){
     cout<<"derived class\n";
 }
 };
-class Child:public derived{
+class Child:public derived{  // multiple inheritance
 public:
 void child(){
     cout<<"child class\n";
 }
 };
-class child1:public derived{
+class child1:public derived{  // multiple inheritance
 public:
 void child2(){
     cout<<"child1 class\n";   
