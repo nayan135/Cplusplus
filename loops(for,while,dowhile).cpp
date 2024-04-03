@@ -5,7 +5,7 @@ using namespace std;
 class A{
 public:
 // for loop
-
+/*
 void loop(){
     int i;
     int f=1;
@@ -14,11 +14,11 @@ void loop(){
         cout<<f<<endl;
     }
 }
-
+*/
 /*
 // do while loop
     void loop(){
-        int i=0;
+        int i=1;
         int f=1;
         do{
             f=f*i;
@@ -28,10 +28,10 @@ void loop(){
         while(i<=10);
     }
 */
-/*
+
     //while loop
     void loop(){
-int i=0;
+int i=1;
     int f=1;
     while(i<=10){
         f=f*i;
@@ -39,7 +39,7 @@ int i=0;
         i++;
     }
     }
-    */
+    
 };
 
 int main(){
