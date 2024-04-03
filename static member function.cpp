@@ -2,25 +2,25 @@
 using namespace std;
 class A{
     int p,t,i;
-    double static r;
+    int static r;
     public:
     void getdata(){
         cout<<"Enter Principle, time";
         cin>>p>>t;
  
    }
-   static void modify(double s){
+   static void modify(int s){
     r= r+s;
    }
   void calc(){
     i=(p*t*r)/100;
   int T=p+i;
-    cout<<T<<endl;
+    cout<<"t: "<<T<<endl;
 
 
    }
 };
-double A::r=1.3;
+int A::r=1;
 int main(){
     A a1,a2,a3;
     a1.getdata();
