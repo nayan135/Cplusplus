@@ -1,34 +1,34 @@
 #include<iostream>
 using namespace std;
-class hybrid(){
+class hybrid{
 public:
 void base(){
     cout<<"base class";
 }
-}
-class derived():public hybrid(){
+};
+class derived:public hybrid{
 public:
-void derived(){
+void derive(){
     cout<<"derived class";
 }
-}
-class child():public derived(){
+};
+class Child:public derived{
 public:
 void child(){
     cout<<"child class";
 }
-}
-class child1():public derived(){
+};
+class child1:public derived{
 public:
-void child1(){
+void child2(){
     cout<<"child1 class";   
 }
-}
+};
 int main(){
   child1 c;
   c.base();
   c.derived();
   c.child();
-  c.child1();
+  c.child2();
     return 0;
 }
